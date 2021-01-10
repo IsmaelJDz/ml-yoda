@@ -1,0 +1,17 @@
+[
+  {
+    "name": "kenobi",
+    "distance": 100.0,
+    "message": ["Este", "", "", "mensaje", ""]
+  },
+  {
+    "name": "skywalker",
+    "distance": 115.5,
+    "message": ["", "es", "", "", "secreto"]
+  },
+  {
+    "name": "kenobi",
+    "distance": 142.7,
+    "message": ["Este", "", "un", "", ""]
+  }
+]
