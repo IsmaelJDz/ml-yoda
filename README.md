@@ -10,10 +10,14 @@ Run the project in local, you need to run the server to get data:
 
 ### `npm start dev`
 
-Run test
+# Technologies
 
-### `npm test`
+Node, Express, JavaScript, ES6
 
-Run linters if you wanna try the format code is well
+Level1 and Level2
 
-### `npm format`
+![Captura de la app](./static/Request1.png)
+
+[ver la aplicación](https://fullstack-mern.netlify.app/)
+
+# Continuous integration with github and heroku
