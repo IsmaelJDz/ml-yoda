@@ -2,14 +2,18 @@ const mongoose = require("mongoose");
 
 require("dotenv").config({ path: "variables.env" });
 
+/**
+ * Connect app to DataBase
+ */
+
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.DB_MONGO, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useFindAndModify: false
+      useFindAndModify: false,
     });
-    console.log("Db online");
+    console.log("😎 DataBase Online 💾");
   } catch (error) {
     console.error(error);
     process.exit(1);

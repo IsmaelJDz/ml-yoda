@@ -121,18 +121,12 @@ const calculate = (distanceOne, distanceTwo, distanceThree) => {
   return vector(x, y);
 };
 
-//# Creating three satellite
+//# Creating three satellite example
 // var satellite = [
 //   { x: -500, y: -200, distance: 100 },
 //   { x: 100, y: -100, distance: 115.5 },
 //   { x: 500, y: 100, distance: 142.7 },
 // ];
-
-//# Start Calculation
-//var pos = calculate(satellite);
-
-// console.log("X: " + pos.x + "; Y: " + pos.y); // X: 7; Y: 6.5
-// console.log((position = { x: pos.x, y: pos.y }));
 
 module.exports = {
   calculate,

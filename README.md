@@ -1,23 +1,43 @@
-# ML Yoda
+# ML Yoda 🚀
 
-Aplication web Yoda
+Description: Aplication web called "Yoda" in honor Yoda Jedi, to get the coordinates of imperial ship and decrypt the secret message
 
 ## Available Scripts
 
 In the project directory, you can run this commands:
 
+## Fist step, install the packages with `npm install` ⚙️
+
 Run the project in local, you need to run the server to get data:
 
-### `npm start dev`
+### `npm start dev` ⚙️
 
 # Technologies
 
-Node, Express, JavaScript, ES6
+Node, Express, JavaScript, ES6, Mongoose, MongoAtlas 🛠
 
-Level1 and Level2
+insert payload
 
 ![Captura de la app](./static/Request1.png)
 
-[ver la aplicación](https://fullstack-mern.netlify.app/)
+[endpoint nivel 1](https://api-yoda.herokuapp.com/api/topsecret/) 📦
 
-# Continuous integration with github and heroku
+insert individual satellite
+
+![Captura de la app](./static/topsecret_split_individual_post.png)
+
+[insert satellite](https://api-yoda.herokuapp.com/api/topsecret/${satellite}) 📦
+
+get all satellites inserted
+
+![Captura de la app](./static/topsecret_split_get.png)
+
+[get all satellites like payload nivel 1](https://api-yoda.herokuapp.com/api/topsecret/) 📦
+
+### `if you want to delete all satellites inserted in api/topsecret_split/{satellite}, you need use next endpoint` 📝
+
+![Captura de la app](./static/remove_all_registers_from_db.png)
+
+\*\*\* https://api-yoda.herokuapp.com/api/topsecret_delete/
+
+# Continuous integration between github and heroku

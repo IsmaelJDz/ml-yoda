@@ -8,7 +8,7 @@ require("dotenv").config({ path: "variables.env" });
 const app = express();
 
 /**
- * if the port 3000 in not available, use 3001
+ * if the port 4000 in not available, use 4001
  */
 
 const PORT = process.env.PORT || 4001;
@@ -25,9 +25,9 @@ morganBody(app);
 
 /**
  * MongoDB data connect
- * DB isn't not necessary in this case!!
+ * Save data individual of request post!!
  */
-//connectDB();
+connectDB();
 
 /**
  * Cors for enable foreign request
@@ -43,6 +43,16 @@ app.use(express.json({ extended: true }));
  * Routes
  */
 app.use("/api/topsecret", require("./routes/getInformation"));
+app.use("/api/topsecret_split/", require("./routes/getInformation"));
+app.use("/api/topsecret_split/", require("./routes/getInformation"));
+app.use("/api/topsecret_delete/", require("./routes/getInformation"));
+
+/**
+ * If the api route doesn't exist, it send a response 404
+ */
+app.use((req, res) => {
+  res.status(404).json({ notFound: "Not found" });
+});
 
 /**
  * Start express server
