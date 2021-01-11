@@ -2,7 +2,7 @@
 
 Description: Aplication web called "Yoda" in honor Yoda Jedi, to get the coordinates of imperial ship and decrypt the secret message
 
-Endpoint base
+## Endpoint base
 
 ## `https://api-yoda.herokuapp.com/` 🟢
 
@@ -16,9 +16,9 @@ Run the project in local, you need to run the server to get data:
 
 ### `npm start dev` ⚙️
 
-# Technologies
+# Technologies 🛠
 
-Node, Express, JavaScript, ES6, Mongoose, MongoAtlas 🛠
+Node, Express, JavaScript, ES6, Mongoose, MongoAtlas
 
 insert payload
 
