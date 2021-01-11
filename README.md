@@ -4,7 +4,7 @@ Description: Aplication web called "Yoda" in honor Yoda Jedi, to get the coordin
 
 ## Endpoint base
 
-## `https://api-yoda.herokuapp.com/` 🟢
+## `https://api-yoda.herokuapp.com/api/` 🟢
 
 ## Available Scripts
 
