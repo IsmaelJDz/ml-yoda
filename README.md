@@ -36,7 +36,7 @@ get all satellites inserted
 
 ### `if you want to delete all satellites inserted in api/topsecret_split/{satellite}, you need use next endpoint` 📝
 
-![Captura de la app](./static/remove_all_registers_from_db.png)
+![Captura de la app](./static/removeallsatellites.png)
 
 \*\*\* https://api-yoda.herokuapp.com/api/topsecret_delete/
 

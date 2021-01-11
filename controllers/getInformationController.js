@@ -45,7 +45,7 @@ exports.getInformation = async (req, res) => {
       ReqBodyMessages[2],
     ]);
 
-    if (responseMessage !== process.env.SECRET_MESSAGE) {
+    if (responseMessage.toLowerCase() !== process.env.SECRET_MESSAGE) {
       return res.status(404).json({
         notFound: "Not found",
       });
